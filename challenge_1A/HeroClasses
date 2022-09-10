@@ -11,6 +11,7 @@ public class program
     
     public void Main( )
     {
+        //heros
         heroOne = new Hero();
         heroTwo = new Hero();
         heroThree = new Hero();
@@ -70,6 +71,14 @@ public class program
         Console.WriteLine("health: " + herofour.health + "                       Stamina: " + herofour.stamina + "                           Mana: " + herofour.Mana);
         Console.WriteLine("Power Level: " + herofour.powerLevel + "                  Spell Level: " + herofour.spellLevel + "                        Weapon Level: " + herofour.WeaponLevel);
         Console.WriteLine("level: " + herofour.level);
+
+        //villians
+        villian = new Villian();
+
+        villian.enemyPowerLevel = heroOne.level + heroTwo.level + heroThree.level + herofour.level / 4;
+        villian.enemyHealth = (heroOne.health + heroTwo.health + heroThree.health + herofour.health / 4) * 4;
+
+        Console.WriteLine(villian.enemyHealth);
     }
 }
 
@@ -87,6 +96,9 @@ public class Villian
 {
     public int enemyHealth;
     public int enemyPowerLevel;
+    public int specialOne;
+    public int specialTwo;
+    public int basicAttack;
 }
 //need to add more hero everything
 //figure out how to run code
