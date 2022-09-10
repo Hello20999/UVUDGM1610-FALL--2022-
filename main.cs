@@ -1,7 +1,7 @@
 //this is a commit
 using System;
 
-public class HelloWorld
+public class HeelloWorld
 {
     private int number = 2;
     public static void Main(string[] args)
