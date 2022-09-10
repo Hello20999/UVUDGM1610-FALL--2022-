@@ -42,11 +42,11 @@ public class program
         heroThree.level = heroThree.WeaponLevel + heroThree.spellLevel + heroThree.powerLevel;
 
         herofour.health = 7;
-        herofour.powerLevel = 7;
+        herofour.powerLevel = 4;
         herofour.stamina = 2;
-        herofour.Mana = 10;
-        herofour.spellLevel = 2;
-        herofour.WeaponLevel = 2;
+        herofour.Mana = 4;
+        herofour.spellLevel = 4;
+        herofour.WeaponLevel = 4;
         herofour.level = herofour.WeaponLevel + herofour.spellLevel + herofour.powerLevel;
         
         Console.WriteLine("Hero One stats");
@@ -75,10 +75,19 @@ public class program
         //villians
         villian = new Villian();
 
-        villian.enemyPowerLevel = heroOne.level + heroTwo.level + heroThree.level + herofour.level / 4;
+        villian.enemyPowerLevel = (heroOne.level + heroTwo.level + heroThree.level + herofour.level) / 4;
         villian.enemyHealth = (heroOne.health + heroTwo.health + heroThree.health + herofour.health / 4) * 4;
+        villian.basicAttack = 6;
+        villian.specialOne = 2;
+        villian.specialTwo = 1;
 
-        Console.WriteLine(villian.enemyHealth);
+        Console.WriteLine(" ");
+        Console.WriteLine("The Villian");
+        Console.WriteLine("Power level: " + villian.enemyPowerLevel);
+        Console.WriteLine("Health: " + villian.enemyHealth);
+        Console.WriteLine("basic attack deals " + villian.basicAttack + " damage");
+        Console.WriteLine("Breath fire, deals "+ villian.specialOne + " damage");
+        Console.WriteLine("Electricute surrondings, deals " + villian.specialTwo + " damage");
     }
 }
 
@@ -100,5 +109,3 @@ public class Villian
     public int specialTwo;
     public int basicAttack;
 }
-//need to add more hero everything
-//figure out how to run code
