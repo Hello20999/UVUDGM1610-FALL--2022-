@@ -112,9 +112,47 @@ public class HowToGetAChickenDinner
         climeTowerCamp = new PopulationOne();
         Hunting = new PopulationOne();
 
-        houseCamp.deaths = 40;
-        houseCamp.kills = 9;
-        houseCamp.victory = 0;
+        houseCamp.deaths = 12;
+        houseCamp.kills = 3;
+        houseCamp.victory = 2;
+
+        areaLooter.deaths = 24;
+        areaLooter.kills = 23;
+        areaLooter.victory = 7;
+
+        climeTowerCamp.deaths = 4;
+        climeTowerCamp.kills = 13;
+        climeTowerCamp.victory = 5;
+
+        Hunting.deaths = 42;
+        Hunting.kills = 31;
+        Hunting.victory = 8;
+
+        Console.WriteLine(" ");
+        Console.WriteLine(" ");
+        Console.WriteLine("Population kill/death and win/death ratio");
+        Console.WriteLine(" ");
+        Console.WriteLine("Camping in a house");
+        Console.WriteLine("kill/death ratio, "+ houseCamp.kills + "/"+ houseCamp.deaths);
+        Console.WriteLine("Win/lose ratio, "+ houseCamp.victory + "/" + houseCamp.deaths);
+        Console.WriteLine(" ");
+        Console.WriteLine("Playing aggressivly");
+        Console.WriteLine("kill/death ratio, "+ Hunting.kills + "/"+ Hunting.deaths);
+        Console.WriteLine("Win/lose ratio, "+ Hunting.victory  + "/" + Hunting.deaths);
+        Console.WriteLine(" ");
+        Console.WriteLine("Staying in one area");
+        Console.WriteLine("kill/death ratio, "+ areaLooter.kills + "/"+ areaLooter.deaths);
+        Console.WriteLine("Win/lose ratio, "+  areaLooter.victory + "/" + areaLooter.deaths);
+        Console.WriteLine(" ");
+        Console.WriteLine("Climbing the tower, and camping");
+        Console.WriteLine("kill/death ratio, "+ climeTowerCamp.kills + "/"+ climeTowerCamp.deaths);
+        Console.WriteLine("Win/lose ratio, "+ climeTowerCamp.victory  + "/" + climeTowerCamp.deaths);
+        Console.WriteLine(" ");
+        Console.WriteLine(" ");
+        Console.WriteLine(" ");
+        Console.WriteLine(" ");
+        Console.WriteLine(" ");
+        Console.WriteLine("not based on actuall stats");
     }
 }
 public class Pubg
