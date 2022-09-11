@@ -173,8 +173,3 @@ public class PopulationOne
     public int kills;
     public int victory;
 }
-
-
-
-
-//free style
