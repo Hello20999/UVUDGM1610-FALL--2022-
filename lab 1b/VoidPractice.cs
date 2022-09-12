@@ -2,17 +2,23 @@ using System;
 
 public class VoidPractice
 {
+    public operation myoperator;
     public void Main()
     {
+        myoperator = new operation();
+
         Console.WriteLine("welcome");
-        DoMath(10, 4);
-        DoMath(20, 7);
-        DoMath(30, 15);
-        Compare(7,8);
-        Compare(8,7);
-        CheckPassword("no");
-        CheckPassword("why");
+        myoperator.DoMath(10, 4);
+        myoperator.DoMath(20, 7);
+        myoperator.DoMath(30, 15);
+        myoperator.Compare(7,8);
+        myoperator.Compare(8,7);
+        myoperator.CheckPassword("no");
+        myoperator.CheckPassword("why");
     }
+}
+public class operation
+{
     public void DoMath(int value, int value2)
     {
         var number = value + value2;
@@ -41,3 +47,4 @@ public class VoidPractice
         }
     }
 }
+
