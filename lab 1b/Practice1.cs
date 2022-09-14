@@ -41,6 +41,10 @@ else
 {
   Console.WriteLine("Good evening.");
 }
-        
+
+//other if
+    int times = 16;
+string result = (times < 18) ? "Good day." : "Good evening.";
+Console.WriteLine(result);    
     }
 }
