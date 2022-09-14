@@ -6,6 +6,7 @@ public class SwitchesPractice
     public void Main()
     {
         GameStates = new gameStates ();
+        GameStates.currentStates = gameStates.States.Playing;
         GameStates.checkedStates();
     }
 }
@@ -27,6 +28,12 @@ public class gameStates
         {
             case States.Starting:
             Console.WriteLine("starting");
+            break;
+            case States.Playing:
+            Console.WriteLine("Playing");
+            break;
+            case States.Ending:
+            Console.WriteLine("Ending");
             break;
         }
     }
