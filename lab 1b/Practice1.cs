@@ -26,6 +26,21 @@ public class VoidPractice1
                 {
                     Console.WriteLine("Good evening.");
         }
+
+        //else if
+        int timez = 2;
+if (timez < 10) 
+{
+  Console.WriteLine("Good morning.");
+} 
+else if (timez < 20) 
+{
+  Console.WriteLine("Good day.");
+} 
+else 
+{
+  Console.WriteLine("Good evening.");
+}
         
     }
 }
