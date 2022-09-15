@@ -4,7 +4,8 @@ public class Practice2
 {
     public void main()
     {
-        int day = 4;
+        //days of week switches
+        int day = 7;
 switch (day) 
 {
   case 1:
@@ -29,5 +30,20 @@ switch (day)
     Console.WriteLine("Sunday");
     break;
 }
+
+//other path
+int dayz = 2;
+switch (dayz) 
+{
+  case 6:
+    Console.WriteLine("Today is Saturday.");
+    break;
+  case 7:
+    Console.WriteLine("Today is Sunday.");
+    break;
+  default:
+    Console.WriteLine("Looking forward to the Weekend.");
+    break;
     }
+}
 }
