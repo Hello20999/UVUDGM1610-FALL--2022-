@@ -5,18 +5,24 @@ public class CookingFrenchToast
     public void Main()
     {
         Console.WriteLine("guess the equation");
-        // replace the number and the type of problem.  There are more than one right answer.
         int first = 2;
-        int second = 3;
-        //do either "plus", "Minus", "Subtract", or "Devide
-        string type = "plus";
-        Console.WriteLine("current guess is " + first + type + second);
+        int second = 2;
+        string type = "Plus";
+
+        switch (type)
+        {
+            case "plus":
+            int Plus = first + second;
+            break;
+            case "Subtract":
+            int Subtract = first - second;
+            break;
+            case "Devide":
+            int Devide = first / second;
+            break;
+            case "Multiply":
+            int Multiply = first * second;
+            break;
+        }
     }
 }
-
-
-
-
-
-
-//dont look past here
