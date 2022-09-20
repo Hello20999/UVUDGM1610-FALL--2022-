@@ -15,5 +15,12 @@ public class Loops2
         {
             Console.WriteLine(n);
         }
+
+        //showing a list of items
+        string[] sports = {"soccor", "Football", "American foorball", "baseball", "vollyball"};
+        foreach (string c in sports) 
+        {
+            Console.WriteLine(c);
+        }
     }
 }
