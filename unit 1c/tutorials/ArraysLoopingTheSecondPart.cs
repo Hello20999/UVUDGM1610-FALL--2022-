@@ -2,7 +2,7 @@ using System;
 
 public class TheSecondPart
 {
-    public static void main()
+    public static void Main()
     {
         weapon[] weaponsobjs = {new weapon(), new weapon (), new weapon ()};
         weaponsobjs[1].weaponName = "Great Axe";

@@ -2,7 +2,7 @@ using System;
 
 public class arrayVideo
 {
-    public void main()
+    public void Main()
     {
         //arrays
         string[] burger = {"burger", "Hamburger", "Cheeseburger", "Bacon burger"};
