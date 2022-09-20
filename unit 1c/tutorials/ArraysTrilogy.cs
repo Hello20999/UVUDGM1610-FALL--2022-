@@ -23,5 +23,12 @@ public class Arrays3
         {
             Console.WriteLine(minecraft[i]);
         }
+
+        //another way to use loop with a list
+        string[] States = {"Florida", "Utah", "South Carolina", "Whashington", "Maryland", "California"};
+        foreach (string w in States) 
+        {
+            Console.WriteLine(w);
+        }
     }
 }
