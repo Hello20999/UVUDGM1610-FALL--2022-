@@ -18,6 +18,7 @@ public class TheSecondPart
             Console.WriteLine(item.weaponName);
         }
         Console.WriteLine(weaponsobjs[0].weaponName);
+        Console.WriteLine(weaponsobjs[0].powerLevel);
 
     }
 }
