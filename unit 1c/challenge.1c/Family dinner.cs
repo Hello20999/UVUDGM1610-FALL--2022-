@@ -19,14 +19,27 @@ public class FamilyDinner
         }
         while (i < 6);
         Console.WriteLine("thats all you need, so you stop cooking");
-        Console.WriteLine("the next day, the " + food [2] + " and " + food [3] + " were all cooked");
-        for (var l = 2; l < food.Length; l++)
+        Console.WriteLine("the next day, the " + food [1] + " and " + food [2] + " were all cooked");
+        for (var l = 1; l < food.Length; l++)
         {
             food[l] = "Turkey";
         }
-        for (var s = 3; s < food.Length; s++)
+        for (var s = 2; s < food.Length; s++)
         {
             food[s] = "Ham";
         }
+        Console.WriteLine("but the " + food [0] + " went bad, so you threw it out");
+        for (var b = 0; b < food.Length; b++)
+        {
+            food[b] = "spoiled Mashed Potato";
+        }
+        Console.WriteLine("other than that, you begin to eat the food");
+        int z = 5;
+        do 
+        {
+            Console.WriteLine("there were the " + food [0] + ", and "+ z + " "+ food[1] + ", and "+ z + " "+ food[2] + ", and "+ z + " "+ food[3] + ", and "+ z + " "+ food[4] + " and you ate one of each");
+            z--;
+        }
+        while (z > 0);
     }
 }
