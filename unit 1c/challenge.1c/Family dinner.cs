@@ -9,12 +9,12 @@ public class FamilyDinner
         String[] food = {"Mashed Potato", "uncooked Turkey", "uncooked Ham", "Stuffing", "Jello"};
         foreach (var turykeys in food)
         Console.WriteLine("you made " + turykeys);
-        Console.WriteLine("but one wouldn't be enough, you need more");
+        Console.WriteLine("but one wouldn't be enough, you needed more, so");
         int i = 2;
         do 
         {
             foreach (var potato in food)
-            Console.WriteLine("so you made " + i + " " + potato);
+            Console.WriteLine("You made " + i + " " + potato);
             i++;
         }
         while (i < 6);
