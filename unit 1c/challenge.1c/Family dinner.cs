@@ -32,5 +32,14 @@ public class FamilyDinner
             z--;
         }
         while (z > 0);
+        Console.WriteLine ("After you eat the last of what there is, and throw out the remaining " + food[0]);
+        for (var w = 0; w < food.Length; w++)
+        {
+            food[w] = "nothing left";
+        }
+        Console.WriteLine("you check to see what you have left");
+        foreach (var pineapple in food)
+        Console.WriteLine("you have " + pineapple);
+        Console.WriteLine("Which concludes thanksgiving night");
     }
 }
