@@ -62,6 +62,7 @@
     <Compile Include="Assets\GameObjects.cs" />
     <Compile Include="Assets\GameObjWayPoint.cs" />
     <Compile Include="Assets\GameObjDestroy.cs" />
+    <Compile Include="Assets\Vector.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
