@@ -69,6 +69,15 @@
     <Compile Include="Assets\WhileLoop.cs" />
     <Compile Include="Assets\DoWhileLoop.cs" />
     <Compile Include="Assets\ForEachLoop.cs" />
+    <Compile Include="Assets\ReferenceScript1.cs" />
+    <Compile Include="Assets\PrivateVPublicVariables.cs" />
+    <Compile Include="Assets\StartAndAwake.cs" />
+    <Compile Include="Assets\UpdateAndFixedupdate.cs" />
+    <Compile Include="Assets\EnableComponents.cs" />
+    <Compile Include="Assets\ActiveObj.cs" />
+    <Compile Include="Assets\CheckStatus1.cs" />
+    <Compile Include="Assets\Movement.cs" />
+    <Compile Include="Assets\FocusCameraOnObject.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
