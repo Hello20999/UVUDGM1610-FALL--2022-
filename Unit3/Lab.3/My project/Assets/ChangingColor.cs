@@ -7,8 +7,10 @@ public class ChangingColor : MonoBehaviour
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.R))
+            //keycode is the key needed to be press
         {
             GetComponent<Renderer>().material.color = Color.red;
+            //this is the road map to access what changes the color.  Think of classes
         }
         if (Input.GetKeyDown(KeyCode.G))
         {
