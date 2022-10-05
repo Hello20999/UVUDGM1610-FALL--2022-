@@ -64,6 +64,11 @@
     <Compile Include="Assets\GameObjects.cs" />
     <Compile Include="Assets\CheckStatus.cs" />
     <Compile Include="Assets\PlayerName.cs" />
+    <Compile Include="Assets\IfStatements.cs" />
+    <Compile Include="Assets\ForLoop.cs" />
+    <Compile Include="Assets\WhileLoop.cs" />
+    <Compile Include="Assets\DoWhileLoop.cs" />
+    <Compile Include="Assets\ForEachLoop.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
