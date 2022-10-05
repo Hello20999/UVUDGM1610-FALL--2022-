@@ -56,9 +56,12 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\ChangingColor.cs" />
     <Compile Include="Assets\VariablesAndFunctions.cs" />
+    <Compile Include="Assets\ChangingColor.cs" />
     <Compile Include="Assets\Syntax.cs" />
+    <Compile Include="Assets\GameObjects.cs" />
+    <Compile Include="Assets\GameObjWayPoint.cs" />
+    <Compile Include="Assets\GameObjDestroy.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
