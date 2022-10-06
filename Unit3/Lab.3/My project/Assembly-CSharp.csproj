@@ -90,6 +90,11 @@
     <Compile Include="Assets\Debug.cs" />
     <Compile Include="Assets\DrawingShapes.cs" />
     <Compile Include="Assets\Handles.cs" />
+    <Compile Include="Assets\TimeByFrame.cs" />
+    <Compile Include="Assets\TimeByElapse.cs" />
+    <Compile Include="Assets\StopTime.cs" />
+    <Compile Include="Assets\EnhanceFramrate.cs" />
+    <Compile Include="Assets\ProbArrays.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
