@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class GameObjWayPoint : MonoBehaviour
-    //A little confused, but I assume this is to create a way of locating this obj so the main obj can interact with it
+    //Retrieving children obj from parent obj
 {
     public Transform[] waypoints;
 

@@ -56,28 +56,40 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\DoWhileLoop.cs" />
+    <Compile Include="Assets\UpdateAndFixedupdate.cs" />
+    <Compile Include="Assets\WhileLoop.cs" />
+    <Compile Include="Assets\PlayerName.cs" />
+    <Compile Include="Assets\ForLoop.cs" />
     <Compile Include="Assets\GameObjDestroy.cs" />
     <Compile Include="Assets\GameObjWayPoint.cs" />
-    <Compile Include="Assets\VariablesAndFunctions.cs" />
-    <Compile Include="Assets\ChangingColor.cs" />
-    <Compile Include="Assets\Syntax.cs" />
-    <Compile Include="Assets\GameObjects.cs" />
-    <Compile Include="Assets\CheckStatus.cs" />
-    <Compile Include="Assets\PlayerName.cs" />
+    <Compile Include="Assets\DestroyCoponents.cs" />
     <Compile Include="Assets\IfStatements.cs" />
-    <Compile Include="Assets\ForLoop.cs" />
-    <Compile Include="Assets\WhileLoop.cs" />
-    <Compile Include="Assets\DoWhileLoop.cs" />
-    <Compile Include="Assets\ForEachLoop.cs" />
-    <Compile Include="Assets\ReferenceScript1.cs" />
-    <Compile Include="Assets\PrivateVPublicVariables.cs" />
-    <Compile Include="Assets\StartAndAwake.cs" />
-    <Compile Include="Assets\UpdateAndFixedupdate.cs" />
-    <Compile Include="Assets\EnableComponents.cs" />
+    <Compile Include="Assets\Destroy.cs" />
     <Compile Include="Assets\ActiveObj.cs" />
-    <Compile Include="Assets\CheckStatus1.cs" />
-    <Compile Include="Assets\Movement.cs" />
+    <Compile Include="Assets\VariablesAndFunctions.cs" />
+    <Compile Include="Assets\PrivateVPublicVariables.cs" />
     <Compile Include="Assets\FocusCameraOnObject.cs" />
+    <Compile Include="Assets\ForEachLoop.cs" />
+    <Compile Include="Assets\DestroyOther.cs" />
+    <Compile Include="Assets\Movement.cs" />
+    <Compile Include="Assets\EnableComponents.cs" />
+    <Compile Include="Assets\CheckStatus1.cs" />
+    <Compile Include="Assets\ReferenceScript1.cs" />
+    <Compile Include="Assets\ChangingColor.cs" />
+    <Compile Include="Assets\StartAndAwake.cs" />
+    <Compile Include="Assets\KeyIntput.cs" />
+    <Compile Include="Assets\Syntax.cs" />
+    <Compile Include="Assets\CheckStatus.cs" />
+    <Compile Include="Assets\GameObjects.cs" />
+    <Compile Include="Assets\NamesAndTags.cs" />
+    <Compile Include="Assets\Vectors.cs" />
+    <Compile Include="Assets\ThreeDemetionanalOrintation.cs" />
+    <Compile Include="Assets\ScritableObjects.cs" />
+    <Compile Include="Assets\ScriptableObjectsPuttingScriptsInThem.cs" />
+    <Compile Include="Assets\Debug.cs" />
+    <Compile Include="Assets\DrawingShapes.cs" />
+    <Compile Include="Assets\Handles.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

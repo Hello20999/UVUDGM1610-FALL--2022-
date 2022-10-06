@@ -7,7 +7,7 @@ public class GameObjDestroy : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        //this destroy a copy of itself
+        //this destroy a itself after a short delay
         void OnCollisionEnter(Collision otherObj)
         {
             if (otherObj.gameObject.tag == "Garbage can")
