@@ -111,6 +111,13 @@
     <Compile Include="Assets\DeltaTime.cs" />
     <Compile Include="Assets\GetButton.cs" />
     <Compile Include="Assets\GetKey.cs" />
+    <Compile Include="Assets\GetAccess.cs" />
+    <Compile Include="Assets\GetAccessRaw.cs" />
+    <Compile Include="Assets\GetAccessDual.cs" />
+    <Compile Include="Assets\Clicking.cs" />
+    <Compile Include="Assets\OtherCoponents.cs" />
+    <Compile Include="Assets\OtherCoponentsOne.cs" />
+    <Compile Include="Assets\OtherCoponentTwo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
