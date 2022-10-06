@@ -95,6 +95,22 @@
     <Compile Include="Assets\StopTime.cs" />
     <Compile Include="Assets\EnhanceFramrate.cs" />
     <Compile Include="Assets\ProbArrays.cs" />
+    <Compile Include="Assets\Switches.cs" />
+    <Compile Include="Assets\Enums.cs" />
+    <Compile Include="Assets\Invoke.cs" />
+    <Compile Include="Assets\InvokeRepeat.cs" />
+    <Compile Include="Assets\Arrays.cs" />
+    <Compile Include="Assets\Istantiate.cs" />
+    <Compile Include="Assets\DestroyClone.cs" />
+    <Compile Include="Assets\CharaterReferenceScript.cs" />
+    <Compile Include="Assets\CharaterReferenceInventory.cs" />
+    <Compile Include="Assets\CharaterReferenceMovement.cs" />
+    <Compile Include="Assets\CharaterReferenceShooting.cs" />
+    <Compile Include="Assets\LinearInterpole.cs" />
+    <Compile Include="Assets\ReferenceVDataType.cs" />
+    <Compile Include="Assets\DeltaTime.cs" />
+    <Compile Include="Assets\GetButton.cs" />
+    <Compile Include="Assets\GetKey.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
