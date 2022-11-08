@@ -7,6 +7,6 @@ public class CheckStatus : MonoBehaviour
     // how to check if a script working in an object
     void Start()
     {
-        Debug.Log("Working");
+        //Debug.Log("Working");
     }
 }

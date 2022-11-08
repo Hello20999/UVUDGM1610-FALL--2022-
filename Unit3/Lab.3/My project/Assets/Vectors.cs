@@ -24,8 +24,9 @@ public class Vectors : MonoBehaviour
         //var heading = target.position - player.position;
 
         //normalizing a vectore
-        var distance = heading.magnitude;
-        var direction = heading / distance;
+        /*
+         * var distance = heading.magnitude;
+        var direction = heading / distance;*/
 
         //using vectors to check if target is a certain distant away
         /*if (heading.sqrMagnitude < maxRange * maxRange)

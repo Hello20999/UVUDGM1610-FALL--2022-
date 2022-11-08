@@ -11,12 +11,12 @@ public class Syntax : MonoBehaviour
         /*Multi line comment
         well keep going
         Until it ends with same way it starts*/
-        Debug.Log(transform.position.x);
+        /*Debug.Log(transform.position.x);
         //this is a map for information to get access, like a address
 
         if (transform.position.y <= 5f)
         {
             Debug.Log("I'm about to hit the ground!");
-        }
+        }*/
     }
 }
