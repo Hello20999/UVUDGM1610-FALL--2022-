@@ -25,6 +25,7 @@ public class DestroyObject : MonoBehaviour
         {
             Debug.Log("Game Over!");
             Destroy(gameObject);
+            gameManager.Losing = true;
             gameManager.isGameOver = true;
         }
     }

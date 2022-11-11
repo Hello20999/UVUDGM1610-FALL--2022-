@@ -7,7 +7,8 @@ public class PlayerController : MonoBehaviour
     public float HorizontalInput;
     public float speed = 40;
     public float xRange = 35.6f;
-
+    public AudioClip shoot;
+    public AudioSource playerAudioSource;
     public Transform blaster;
     public GameObject Projectile;
     public GameManager gameManager;
@@ -18,6 +19,7 @@ public class PlayerController : MonoBehaviour
         inventory[0] = "empty";
         inventory[1] = "empty";
         inventory[2] = "empty";
+        playerAudioSource = GetComponent<AudioSource>();
     }
     private void Start()
     {
@@ -43,6 +45,7 @@ public class PlayerController : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space) && gameManager.isGameOver == false)
         {
             Instantiate(Projectile, blaster.transform.position, Projectile.transform.rotation);
+            playerAudioSource.PlayOneShot(shoot, 1.0f);
         }
         if (Input.GetKey(KeyCode.W))
         {

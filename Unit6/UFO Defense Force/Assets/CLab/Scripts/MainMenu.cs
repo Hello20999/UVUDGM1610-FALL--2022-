@@ -12,7 +12,6 @@ public class MainMenu : MonoBehaviour
         SceneManager.LoadScene(SceneToLoad);
         Debug.Log("Load scene!");
     }
-
     // Update is called once per frame
     public void QuitGame()
     {

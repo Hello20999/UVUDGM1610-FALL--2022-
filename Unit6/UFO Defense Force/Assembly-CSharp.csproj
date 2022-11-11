@@ -60,7 +60,6 @@
     <Compile Include="Assets\BChallenge\Scripts\PowerUpFlash.cs" />
     <Compile Include="Assets\Lab\Scripts\PlayerController.cs" />
     <Compile Include="Assets\BLab\Scripts\DetectCollision.cs" />
-    <Compile Include="Assets\CLab\Scripts\Filler.cs" />
     <Compile Include="Assets\BLab\Scripts\EnemySpawnManager.cs" />
     <Compile Include="Assets\Lab\Scripts\MoveForward.cs" />
     <Compile Include="Assets\CLab\Scripts\GameManager.cs" />
