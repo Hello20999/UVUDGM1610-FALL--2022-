@@ -70,6 +70,7 @@
     <Compile Include="Assets\Lab\Scripts\Inventory.cs" />
     <Compile Include="Assets\Challange\Scripts\PowerUpSpawner.cs" />
     <Compile Include="Assets\BChallenge\Scripts\PowerUpSpawnManager.cs" />
+    <Compile Include="Assets\CLab\Scripts\Filler.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
