@@ -8,7 +8,6 @@ public class GameManager : MonoBehaviour
     private GameObject gameOverText;
     public bool EnemySoundEffect;
     public AudioClip enemyBlowUp;
-    public AudioClip buttonClicking;
     public AudioClip losingSoundEffect;
     private AudioSource audioSource;
     public bool buttonClick;
@@ -18,7 +17,7 @@ public class GameManager : MonoBehaviour
         Time.timeScale = 1;
         isGameOver = false;
         EnemySoundEffect = false;
-        buttonClick = true;
+        buttonClick = false;
         Losing = false;
     }
     void Start()
@@ -40,11 +39,6 @@ public class GameManager : MonoBehaviour
         {
             audioSource.PlayOneShot(enemyBlowUp, 1.0f);
             EnemySoundEffect = false;
-        }
-        if (buttonClick == true)
-        {
-            audioSource.PlayOneShot(buttonClicking, 1f);
-            buttonClick = false;
         }
         if (Losing == true)
         {

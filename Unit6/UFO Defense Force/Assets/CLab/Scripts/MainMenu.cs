@@ -6,7 +6,9 @@ using UnityEngine.SceneManagement;
 public class MainMenu : MonoBehaviour
 {
     // Start is called before the first frame update
+    Sound sound;
     public int SceneToLoad;
+    public GameObject hope;
     public void StartGame()
     {
         SceneManager.LoadScene(SceneToLoad);
@@ -16,6 +18,6 @@ public class MainMenu : MonoBehaviour
     public void QuitGame()
     {
         Application.Quit();
-        Debug.Log("Quit Game!");
+        Debug.Log("QuitGame Game");
     }
 }
