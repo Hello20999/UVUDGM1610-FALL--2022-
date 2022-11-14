@@ -60,6 +60,8 @@
     <Compile Include="Assets\Lab7a\Scripts\MatchBehavior.cs" />
     <Compile Include="Assets\Lab7a\Scripts\IDContainerBehavior.cs" />
     <Compile Include="Assets\Lab7a\Scripts\intData.cs" />
+    <Compile Include="Assets\Lab7a\Scripts\ColorID.cs" />
+    <Compile Include="Assets\Lab7a\Scripts\SpriteBehavior.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
