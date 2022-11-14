@@ -62,6 +62,7 @@
     <Compile Include="Assets\Lab7a\Scripts\intData.cs" />
     <Compile Include="Assets\Lab7a\Scripts\ColorID.cs" />
     <Compile Include="Assets\Lab7a\Scripts\SpriteBehavior.cs" />
+    <Compile Include="Assets\Lab7a\Scripts\DragableBehavior.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
