@@ -59,6 +59,7 @@
     <Compile Include="Assets\Lab7a\Scripts\ID.cs" />
     <Compile Include="Assets\Lab7a\Scripts\MatchBehavior.cs" />
     <Compile Include="Assets\Lab7a\Scripts\IDContainerBehavior.cs" />
+    <Compile Include="Assets\Lab7a\Scripts\intData.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
