@@ -66,6 +66,7 @@
     <Compile Include="Assets\Lab7a\Scripts\FloatData.cs" />
     <Compile Include="Assets\Lab7a\Scripts\TextLabelBehavior.cs" />
     <Compile Include="Assets\Lab7a\Scripts\MonoEventBehavior.cs" />
+    <Compile Include="Assets\Lab7a\Scripts\TansformBehavior.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
