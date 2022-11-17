@@ -19,7 +19,7 @@ public class MatchBehavior : MonoBehaviour
         else
         {
             noMatchEvent.Invoke();
-            yield return new WaitForSeconds(0.5f);
+            yield return new WaitForSeconds(0.3f);
             noMatchDelayedEvent.Invoke();
         }
     }

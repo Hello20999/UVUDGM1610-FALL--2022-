@@ -56,17 +56,17 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Lab7a\Scripts\ID.cs" />
-    <Compile Include="Assets\Lab7a\Scripts\MatchBehavior.cs" />
     <Compile Include="Assets\Lab7a\Scripts\IDContainerBehavior.cs" />
-    <Compile Include="Assets\Lab7a\Scripts\intData.cs" />
-    <Compile Include="Assets\Lab7a\Scripts\ColorID.cs" />
-    <Compile Include="Assets\Lab7a\Scripts\SpriteBehavior.cs" />
-    <Compile Include="Assets\Lab7a\Scripts\DragableBehavior.cs" />
-    <Compile Include="Assets\Lab7a\Scripts\FloatData.cs" />
-    <Compile Include="Assets\Lab7a\Scripts\TextLabelBehavior.cs" />
     <Compile Include="Assets\Lab7a\Scripts\MonoEventBehavior.cs" />
+    <Compile Include="Assets\Lab7a\Scripts\FloatData.cs" />
+    <Compile Include="Assets\Lab7a\Scripts\DragableBehavior.cs" />
+    <Compile Include="Assets\Lab7a\Scripts\ColorID.cs" />
     <Compile Include="Assets\Lab7a\Scripts\TansformBehavior.cs" />
+    <Compile Include="Assets\Lab7a\Scripts\MatchBehavior.cs" />
+    <Compile Include="Assets\Lab7a\Scripts\SpriteBehavior.cs" />
+    <Compile Include="Assets\Lab7a\Scripts\intData.cs" />
+    <Compile Include="Assets\Lab7a\Scripts\TextLabelBehavior.cs" />
+    <Compile Include="Assets\Lab7a\Scripts\ID.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
