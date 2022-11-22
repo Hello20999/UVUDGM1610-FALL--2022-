@@ -63,6 +63,7 @@
     <Compile Include="Assets\Lab7a\Scripts\ColorID.cs" />
     <Compile Include="Assets\Lab7a\Scripts\TansformBehavior.cs" />
     <Compile Include="Assets\Lab7a\Scripts\MatchBehavior.cs" />
+    <Compile Include="Assets\Lab7b\CoroutinBehavior.cs" />
     <Compile Include="Assets\Lab7a\Scripts\SpriteBehavior.cs" />
     <Compile Include="Assets\Lab7a\Scripts\intData.cs" />
     <Compile Include="Assets\Lab7a\Scripts\TextLabelBehavior.cs" />
