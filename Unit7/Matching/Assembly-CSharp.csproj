@@ -73,6 +73,8 @@
     <Compile Include="Assets\Lab7b\Scripts\Vector3DataList.cs" />
     <Compile Include="Assets\Lab7b\Scripts\DestroyBehavior.cs" />
     <Compile Include="Assets\Lab7b\Scripts\ColorIDDataList.cs" />
+    <Compile Include="Assets\Lab7b\Scripts\ColorIDBehavior.cs" />
+    <Compile Include="Assets\Lab7b\Scripts\ColorMatchBehavior.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

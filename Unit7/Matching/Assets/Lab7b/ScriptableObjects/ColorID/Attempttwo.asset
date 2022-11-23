@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25eefa4abd476a94da013512da533add, type: 3}
+  m_Name: Attempttwo
+  m_EditorClassIdentifier: 
+  ColorIDList:
+  - {fileID: 11400000, guid: 5b02f2d740ea5f240bcea1bf6cbc73e0, type: 2}
+  - {fileID: 11400000, guid: f58d6ec4f8c6ac64ebd087b81ee2b0db, type: 2}
+  - {fileID: 11400000, guid: 8bc8c35eac9686b40823bf876bba3950, type: 2}
+  currentColor: {fileID: 0}
