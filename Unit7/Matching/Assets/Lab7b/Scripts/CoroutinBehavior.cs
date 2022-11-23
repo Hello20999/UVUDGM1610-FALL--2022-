@@ -5,23 +5,45 @@ using UnityEngine.Events;
 
 public class CoroutinBehavior : MonoBehaviour
 {
-    public UnityEvent startEvent, repeatEvent, endEvent;
+    public bool canRun;
+    public UnityEvent startEvent, startCountEvent, repeatCountEvent, endCountEvent, repeatUntilFalseEvent;
     public intData counterNum;
     public float seconds = 3.0f;
     private WaitForSeconds wfsObj;
     private WaitForFixedUpdate wffuObj;
     // Start is called before the first frame update
-    IEnumerator Start()
+    private void Start()
+    {
+        startEvent.Invoke();
+    }
+    public void StartCounting()
+    {
+        StartCoroutine(Counting());
+    }
+    IEnumerator Counting()
     {
         wfsObj = new WaitForSeconds(seconds);
         wffuObj = new WaitForFixedUpdate();
-        startEvent.Invoke();
+        startCountEvent.Invoke();
         while (counterNum.value > 0)
         {
-            repeatEvent.Invoke();
+            repeatCountEvent.Invoke();
             counterNum.value--;
             yield return wfsObj;
         }
-        endEvent.Invoke();
+        endCountEvent.Invoke();
+    }
+    public void StartRepeatUntilFalse()
+    {
+        canRun = true;
+        StartCoroutine(RepeatUntilFlase());
+    }
+    IEnumerator RepeatUntilFlase()
+    {
+        while (canRun)
+        {
+            yield return wfsObj;
+            repeatUntilFalseEvent.Invoke();
+        }
     }
 }
