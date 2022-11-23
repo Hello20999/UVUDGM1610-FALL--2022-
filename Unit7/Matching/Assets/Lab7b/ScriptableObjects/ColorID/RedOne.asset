@@ -9,7 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 975f0a565d08ba24e96da2136d2dc6d3, type: 3}
-  m_Name: V3A
+  m_Script: {fileID: 11500000, guid: 9e589f8c1c1dd9a45b928cd107a02a02, type: 3}
+  m_Name: RedOne
   m_EditorClassIdentifier: 
-  value: {x: 3, y: 5, z: 0}
+  value: {r: 1, g: 0, b: 0, a: 1}

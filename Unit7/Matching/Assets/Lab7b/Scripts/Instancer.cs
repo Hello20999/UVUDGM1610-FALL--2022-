@@ -24,9 +24,14 @@ public class Instancer : ScriptableObject
     {
         Instantiate(prefab, obj.vector3DataList[num].value, Quaternion.identity);
         num++;
-        if (num == 3)
+        if (num == 4)
         {
             num = 0;
         }
+    }
+    public void CreateInstanceFromListRandom(Vector3DataList obj)
+    {
+        num = Random.Range(0, obj.vector3DataList.Count);
+        Instantiate(prefab, obj.vector3DataList[num].value, Quaternion.identity);
     }
 }

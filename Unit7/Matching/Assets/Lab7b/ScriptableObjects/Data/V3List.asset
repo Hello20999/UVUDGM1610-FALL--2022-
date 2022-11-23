@@ -12,7 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2eef7f1ec33906e459619b79e435aef4, type: 3}
   m_Name: V3List
   m_EditorClassIdentifier: 
-  vector3List:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  vector3DataList:
+  - {fileID: 11400000, guid: ff5ee623e23e4954a853deddbd666daa, type: 2}
+  - {fileID: 11400000, guid: f64224aa09774954c8a64d83e9aac973, type: 2}
+  - {fileID: 11400000, guid: 55ecbb6fab9f3834888db6a5fa8e0a73, type: 2}
+  - {fileID: 11400000, guid: 00cf8edad2762124dafacf6227d76df5, type: 2}

@@ -11,6 +11,10 @@ GameObject:
   - component: {fileID: 2144252024719902725}
   - component: {fileID: 3343949127179465348}
   - component: {fileID: 3611843462332578200}
+  - component: {fileID: 1429523143452085410}
+  - component: {fileID: 3984733394909031335}
+  - component: {fileID: -5102065938372166468}
+  - component: {fileID: -2497289805589031124}
   m_Layer: 0
   m_Name: Circle
   m_TagString: Untagged
@@ -98,3 +102,86 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 0.2}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1429523143452085410
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6326847043742335809}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedd95d99205e3c4393811ad89dbef7e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  second: 3
+--- !u!54 &3984733394909031335
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6326847043742335809}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!114 &-5102065938372166468
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6326847043742335809}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ff40858bf3be694680ed438b4d270be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &-2497289805589031124
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6326847043742335809}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af808bbbd13cf384aad66babf7dda96f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: -5102065938372166468}
+        m_TargetAssemblyTypeName: SpriteBehavior, Assembly-CSharp
+        m_MethodName: ChangeRendererColor
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 11400000, guid: f58d6ec4f8c6ac64ebd087b81ee2b0db, type: 2}
+          m_ObjectArgumentAssemblyTypeName: ColorID, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  awakeEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  disableEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  onMouseDownEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  onMouseUpEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  foodEvent:
+    m_PersistentCalls:
+      m_Calls: []
