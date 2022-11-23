@@ -57,24 +57,24 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Lab7a\Scripts\IDContainerBehavior.cs" />
+    <Compile Include="Assets\Lab7b\Scripts\ColorMatchBehavior.cs" />
+    <Compile Include="Assets\Lab7b\Scripts\Vector3Data.cs" />
+    <Compile Include="Assets\Lab7b\Scripts\DestroyBehavior.cs" />
     <Compile Include="Assets\Lab7a\Scripts\MonoEventBehavior.cs" />
+    <Compile Include="Assets\Lab7b\Scripts\ColorIDBehavior.cs" />
     <Compile Include="Assets\Lab7a\Scripts\FloatData.cs" />
     <Compile Include="Assets\Lab7a\Scripts\DragableBehavior.cs" />
     <Compile Include="Assets\Lab7a\Scripts\ColorID.cs" />
     <Compile Include="Assets\Lab7a\Scripts\TansformBehavior.cs" />
     <Compile Include="Assets\Lab7a\Scripts\MatchBehavior.cs" />
+    <Compile Include="Assets\Lab7b\Scripts\Vector3DataList.cs" />
     <Compile Include="Assets\Lab7a\Scripts\SpriteBehavior.cs" />
     <Compile Include="Assets\Lab7a\Scripts\intData.cs" />
     <Compile Include="Assets\Lab7a\Scripts\TextLabelBehavior.cs" />
+    <Compile Include="Assets\Lab7b\Scripts\ColorIDDataList.cs" />
+    <Compile Include="Assets\Lab7b\Scripts\Instancer.cs" />
     <Compile Include="Assets\Lab7a\Scripts\ID.cs" />
     <Compile Include="Assets\Lab7b\Scripts\CoroutinBehavior.cs" />
-    <Compile Include="Assets\Lab7b\Scripts\Instancer.cs" />
-    <Compile Include="Assets\Lab7b\Scripts\Vector3Data.cs" />
-    <Compile Include="Assets\Lab7b\Scripts\Vector3DataList.cs" />
-    <Compile Include="Assets\Lab7b\Scripts\DestroyBehavior.cs" />
-    <Compile Include="Assets\Lab7b\Scripts\ColorIDDataList.cs" />
-    <Compile Include="Assets\Lab7b\Scripts\ColorIDBehavior.cs" />
-    <Compile Include="Assets\Lab7b\Scripts\ColorMatchBehavior.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

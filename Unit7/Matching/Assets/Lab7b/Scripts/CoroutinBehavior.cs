@@ -16,6 +16,9 @@ public class CoroutinBehavior : MonoBehaviour
     {
         wfsObj = new WaitForSeconds(seconds);
         wffuObj = new WaitForFixedUpdate();
+    }
+    public void StartScript()
+    {
         startEvent.Invoke();
     }
     public void StartCounting()
