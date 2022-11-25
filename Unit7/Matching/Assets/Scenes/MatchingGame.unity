@@ -123,65 +123,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1001 &20104069
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 2
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 6846986687809398817, guid: e59ff9fd270e4c44683e710a5704f73c, type: 3}
-      propertyPath: m_Name
-      value: EventSystem (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 6846986687809398820, guid: e59ff9fd270e4c44683e710a5704f73c, type: 3}
-      propertyPath: m_RootOrder
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 6846986687809398820, guid: e59ff9fd270e4c44683e710a5704f73c, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6846986687809398820, guid: e59ff9fd270e4c44683e710a5704f73c, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6846986687809398820, guid: e59ff9fd270e4c44683e710a5704f73c, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6846986687809398820, guid: e59ff9fd270e4c44683e710a5704f73c, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6846986687809398820, guid: e59ff9fd270e4c44683e710a5704f73c, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6846986687809398820, guid: e59ff9fd270e4c44683e710a5704f73c, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6846986687809398820, guid: e59ff9fd270e4c44683e710a5704f73c, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6846986687809398820, guid: e59ff9fd270e4c44683e710a5704f73c, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6846986687809398820, guid: e59ff9fd270e4c44683e710a5704f73c, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6846986687809398820, guid: e59ff9fd270e4c44683e710a5704f73c, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_AddedGameObjects: []
-  m_SourcePrefab: {fileID: 100100000, guid: e59ff9fd270e4c44683e710a5704f73c, type: 3}
 --- !u!1001 &86282146
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -280,7 +221,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1174125236217578899, guid: a3f802cfbd74a434693c19b82fafe4a0, type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 1174125236217578899, guid: a3f802cfbd74a434693c19b82fafe4a0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2021,18 +1962,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: SpriteBehavior, Assembly-CSharp
-        m_MethodName: ChangeRendererColor
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 11400000, guid: 4799b9ce0ae64954b8b787a70d5120ff, type: 2}
-          m_ObjectArgumentAssemblyTypeName: ColorID, Assembly-CSharp
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
       - m_Target: {fileID: 1084320121}
         m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
         m_MethodName: Play
@@ -2045,10 +1974,10 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 1366243996}
+      - m_Target: {fileID: 524390767}
         m_TargetAssemblyTypeName: CoroutinBehavior, Assembly-CSharp
-        m_MethodName: set_CanRun
-        m_Mode: 6
+        m_MethodName: StartScript
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -2225,7 +2154,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8237071333479151903, guid: 1b0abdc1d0dcdfd4e9e510d2fc87c7f4, type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 8237071333479151903, guid: 1b0abdc1d0dcdfd4e9e510d2fc87c7f4, type: 3}
       propertyPath: m_LocalPosition.x
