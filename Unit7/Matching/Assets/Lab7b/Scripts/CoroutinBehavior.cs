@@ -5,12 +5,15 @@ using UnityEngine.Events;
 
 public class CoroutinBehavior : MonoBehaviour
 {
-    public bool canRun;
+    private bool canRun;
     public UnityEvent startEvent, startCountEvent, repeatCountEvent, endCountEvent, repeatUntilFalseEvent;
     public intData counterNum;
     public float seconds = 3.0f;
     private WaitForSeconds wfsObj;
     private WaitForFixedUpdate wffuObj;
+
+    public bool CanRun { get => canRun; set => canRun = value; }
+
     // Start is called before the first frame update
     private void Start()
     {
@@ -38,12 +41,12 @@ public class CoroutinBehavior : MonoBehaviour
     }
     public void StartRepeatUntilFalse()
     {
-        canRun = true;
+        CanRun = true;
         StartCoroutine(RepeatUntilFlase());
     }
     IEnumerator RepeatUntilFlase()
     {
-        while (canRun)
+        while (CanRun)
         {
             yield return wfsObj;
             repeatUntilFalseEvent.Invoke();
