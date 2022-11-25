@@ -11,6 +11,5 @@ public class ColorIDDataList : ScriptableObject
     {
         num = Random.Range(0, ColorIDList.Count);
         currentColor = ColorIDList[num];
-        Debug.Log(num);
     }
 }

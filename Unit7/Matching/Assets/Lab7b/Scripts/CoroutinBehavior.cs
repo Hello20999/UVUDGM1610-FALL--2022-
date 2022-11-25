@@ -48,8 +48,8 @@ public class CoroutinBehavior : MonoBehaviour
     {
         while (CanRun)
         {
-            yield return wfsObj;
             repeatUntilFalseEvent.Invoke();
+            yield return wfsObj;
         }
     }
 }

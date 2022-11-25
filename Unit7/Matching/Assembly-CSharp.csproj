@@ -57,6 +57,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Lab7a\Scripts\IDContainerBehavior.cs" />
+    <Compile Include="Assets\Lab7c\UnityActions\GameActionHandler.cs" />
     <Compile Include="Assets\Lab7b\Scripts\ColorMatchBehavior.cs" />
     <Compile Include="Assets\Lab7b\Scripts\Vector3Data.cs" />
     <Compile Include="Assets\Lab7b\Scripts\DestroyBehavior.cs" />
@@ -76,7 +77,6 @@
     <Compile Include="Assets\Lab7b\Scripts\Instancer.cs" />
     <Compile Include="Assets\Lab7a\Scripts\ID.cs" />
     <Compile Include="Assets\Lab7b\Scripts\CoroutinBehavior.cs" />
-    <Compile Include="Assets\Lab7c\UnityActions\GameActionHandler.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
