@@ -13,4 +13,8 @@ public class DestroyBehavior : MonoBehaviour
         Destroy(gameObject);
 
     }
+    public void DestroyNow()
+    {
+        Destroy(gameObject);
+    }
 }
